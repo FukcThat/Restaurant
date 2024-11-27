@@ -1,3 +1,35 @@
 body {
-    background-color: rgb(30, 28, 28);
+    background-color: rgb(30, 30, 30);
+    color: wheat;
+}
+
+nav {
+    padding-inline: 3rem;
+    display: flex;
+    gap: 10rem;
+}
+
+.nav--btn {
+    font-size: 1.2rem;
+    background: none;
+    border: none;
+    color: wheat;
+    box-shadow: 1px 1px 2px black;
+}
+
+.home-page--div {
+    display: grid;
+    grid-template-columns: 2;
+    text-align: center;
+}
+
+.restaurant-name {
+    color: wheat;
+    font-size: 5rem;
+    grid-column: 1 / span 2;
+}
+
+.logo-img {
+    height: 25rem;
+    width: 25rem;
 }
