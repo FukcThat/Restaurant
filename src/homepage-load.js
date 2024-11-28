@@ -1,4 +1,4 @@
-import WillowTreeLogo from "./assets/WillowTree-Logo.png";
+import WillowTreeLogo from "./assets/TheWillowTable-Logo.png";
 
 // Make load-home-page function
 const loadHomePage = () => {
@@ -11,7 +11,7 @@ const loadHomePage = () => {
 
   // Make h2 for name
   const restaurantName = document.createElement("h2");
-  restaurantName.textContent = "The Willow Table";
+  restaurantName.textContent = "Welcome to...";
   restaurantName.classList.add("restaurant-name");
   HomePageDiv.appendChild(restaurantName);
 
