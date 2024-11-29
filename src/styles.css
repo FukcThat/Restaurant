@@ -43,3 +43,8 @@ nav {
 .homepage-text {
     font-size: 1.75rem;
 }
+
+.menu-item--image {
+    height: 20rem;
+    width: 20rem;
+}

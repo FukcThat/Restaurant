@@ -1,6 +1,7 @@
 import "./styles.css";
 import loadHomePage from "./loadHomePage";
 import loadContactPage from "./loadContactPage";
+import loadMenuPage from "./loadMenuPage";
 
 // First Home page load
 document.addEventListener("DOMContentLoaded", () => {
@@ -15,6 +16,11 @@ const homePageBtn = document.querySelector("#home");
 // Home page - EventListener
 homePageBtn.addEventListener("click", () => {
   loadHomePage();
+});
+
+// Menu Page - EventListener
+menuPageBtn.addEventListener("click", () => {
+  loadMenuPage();
 });
 
 // Contact page - EventListener
