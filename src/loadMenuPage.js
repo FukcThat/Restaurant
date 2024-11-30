@@ -1,4 +1,19 @@
 import BreadBoardImg from "./assets/BreadBoard.png";
+import CitrusBeetImg from "./assets/CitrusBeetSalad.png";
+import HarissaPlatterImg from "./assets/HarissaPlatter.png";
+import DumplingsImg from "./assets/Dumplings.png";
+import MushroomStroganoffImg from "./assets/MushroomStroganoff.png";
+import CauliflowerSteakImg from "./assets/CauliflowerSteak.png";
+import ShepherdsPieImg from "./assets/ShepherdsPie.png";
+import PotatoLeekGratinImg from "./assets/PotatoLeekGratin.png";
+import GnocciImg from "./assets/Gnocci.png";
+import TofuBowlImg from "./assets/TofuBowl.png";
+import ChocoCocoTartImg from "./assets/ChocoCocoTart.png";
+import FruitCrumbleImg from "./assets/FruitCrumble.png";
+import PearTartImg from "./assets/PearTart.png";
+import LemongrassIcedTeaImg from "./assets/LemongrassIcedTea.png";
+import RosemaryCitrusImg from "./assets/RosemaryCitrus.png";
+import SignatureMocktailImg from "./assets/SignatureMocktail.png";
 
 // Load Menu Page
 const loadMenuPage = () => {
@@ -91,7 +106,7 @@ const loadMenuPage = () => {
     "Golden Beet & Citrus Salad",
     "Roasted golden beets, arugula, orange slices, candied walnuts, and a maple-mustard vinaigrette.",
     "12 Ɇ",
-    null,
+    CitrusBeetImg,
     "Appetizers"
   );
 
@@ -100,7 +115,7 @@ const loadMenuPage = () => {
     "Harissa Roasted Veggie Platter",
     "A colorful assortment of roasted seasonal vegetables, served with a creamy tahini sauce and grilled flatbread.",
     "14 Ɇ",
-    null,
+    HarissaPlatterImg,
     "Appetizers"
   );
 
@@ -109,7 +124,7 @@ const loadMenuPage = () => {
     "Sesame Edamame Dumplings",
     "Handmade dumplings stuffed with a savory mix of edamame, shiitake mushrooms, garlic, and ginger, steamed to perfection and drizzled with a sesame-soy glaze. Served with a side of tangy chili dipping sauce.",
     "9 Ɇ",
-    null,
+    DumplingsImg,
     "Appetizers"
   );
 
@@ -119,7 +134,7 @@ const loadMenuPage = () => {
     "Creamy Wild Mushroom Stroganoff",
     "Cashew cream sauce, sautéed wild mushrooms, caramelized onions, and ribbon pasta.",
     "18 Ɇ",
-    null,
+    MushroomStroganoffImg,
     "Main Dishes"
   );
 
@@ -128,7 +143,7 @@ const loadMenuPage = () => {
     "Hearty Lentil Shepherd’s Pie",
     "A rich lentil and root vegetable filling, topped with fluffy mashed potatoes and baked golden.",
     "16 Ɇ",
-    null,
+    ShepherdsPieImg,
     "Main Dishes"
   );
 
@@ -137,7 +152,7 @@ const loadMenuPage = () => {
     "Charred Cauliflower Steak",
     "Served with a smoky red pepper sauce, crispy chickpeas, and a side of quinoa pilaf.",
     "17 Ɇ",
-    null,
+    CauliflowerSteakImg,
     "Main Dishes"
   );
 
@@ -146,7 +161,7 @@ const loadMenuPage = () => {
     "Rustic Potato & Leek Gratin",
     "Layers of thinly sliced potatoes and caramelized leeks baked in a creamy cashew sauce, topped with a golden, herbed breadcrumb crust. Served with a side of roasted seasonal vegetables.",
     "18 Ɇ",
-    null,
+    PotatoLeekGratinImg,
     "Main Dishes"
   );
 
@@ -155,7 +170,7 @@ const loadMenuPage = () => {
     "Sweet Potato Gnocchi",
     "Pan-seared gnocchi tossed in a sage brown “butter” sauce with toasted hazelnuts and wilted spinach.",
     "19 Ɇ",
-    null,
+    GnocciImg,
     "Main Dishes"
   );
 
@@ -164,7 +179,7 @@ const loadMenuPage = () => {
     "Sticky Sesame Tofu Bowl",
     "Marinated tofu, jasmine rice, steamed greens, and a drizzle of sticky sesame-ginger glaze.",
     "15 Ɇ",
-    null,
+    TofuBowlImg,
     "Main Dishes"
   );
 
@@ -174,7 +189,7 @@ const loadMenuPage = () => {
     "Choco-Coconut Tart",
     "A rich dark chocolate ganache in a coconut crust, topped with fresh berries.",
     "10 Ɇ",
-    null,
+    ChocoCocoTartImg,
     "Desserts"
   );
 
@@ -183,7 +198,7 @@ const loadMenuPage = () => {
     "Seasonal Fruit Crumble",
     "Warm, spiced fruit with an oat-almond topping, served with a dollop of coconut cream.",
     "11 Ɇ",
-    null,
+    FruitCrumbleImg,
     "Desserts"
   );
 
@@ -192,7 +207,7 @@ const loadMenuPage = () => {
     "Cardamom Pear Tart",
     "A delicate tart filled with almond cream and poached pears, lightly spiced with cardamom and finished with a drizzle of maple syrup.",
     "12 Ɇ",
-    null,
+    PearTartImg,
     "Desserts"
   );
 
@@ -202,7 +217,7 @@ const loadMenuPage = () => {
     "Lemongrass Iced Tea",
     "Refreshing and lightly sweetened with agave syrup.",
     "6 Ɇ",
-    null,
+    LemongrassIcedTeaImg,
     "Drinks"
   );
 
@@ -211,7 +226,7 @@ const loadMenuPage = () => {
     "Rosemary Citrus Spritz",
     "A refreshing sparkling drink made with orange and grapefruit juices, rosemary syrup, and sparkling water. Garnished with a sprig of fresh rosemary.",
     "7 Ɇ",
-    null,
+    RosemaryCitrusImg,
     "Drinks"
   );
 
@@ -220,7 +235,7 @@ const loadMenuPage = () => {
     "Willow Signature Mocktail",
     "A mix of cucumber, elderflower, lime, and soda water for a fresh, bubbly treat.",
     "8 Ɇ",
-    null,
+    SignatureMocktailImg,
     "Drinks"
   );
 };
