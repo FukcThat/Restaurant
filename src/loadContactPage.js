@@ -1,9 +1,8 @@
 // Contact-page load funcion
-const loadContactPage = () => {
+const loadContactPage = (container) => {
   // Get content div
   const contentDiv = document.querySelector(".content");
-  contentDiv.innerHTML = "";
-  console.log(contentDiv);
+  //   contentDiv.innerHTML = "";
 
   // Make div for The contact page
   const contactPageDiv = document.createElement("div");

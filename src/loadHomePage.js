@@ -1,10 +1,10 @@
 import WillowTreeLogo from "./assets/TheWillowTable-Logo.png";
 
 // Make load-home-page function
-const loadHomePage = () => {
+const loadHomePage = (container) => {
   // Get content div
   const contentDiv = document.querySelector(".content");
-  contentDiv.innerHTML = "";
+  // contentDiv.innerHTML = "";
 
   // Make Home-Page div
   const HomePageDiv = document.createElement("div");

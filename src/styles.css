@@ -10,6 +10,26 @@ nav {
     gap: 10rem;
 }
 
+.content {
+    position: relative;
+  }
+  
+  .new-content {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    transform: translateX(0);
+  }
+  
+  .new-content.visible {
+    opacity: 1;
+    transform: translateX(-100%);
+  }
+  
+
 .nav-btn {
     cursor: pointer;
     font-size: 1.2rem;

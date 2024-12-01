@@ -16,10 +16,10 @@ import RosemaryCitrusImg from "./assets/RosemaryCitrus.png";
 import SignatureMocktailImg from "./assets/SignatureMocktail.png";
 
 // Load Menu Page
-const loadMenuPage = () => {
+const loadMenuPage = (container) => {
   // Get content div
   const contentDiv = document.querySelector(".content");
-  contentDiv.innerHTML = "";
+  //   contentDiv.innerHTML = "";
 
   // Menu Page - Div
   const menuPageDiv = document.createElement("div");
