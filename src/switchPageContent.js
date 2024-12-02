@@ -19,6 +19,8 @@ const switchPageContent = (newPageFunction) => {
   setTimeout(() => {
     newContentDiv.classList.remove("new-content");
   }, 500);
+
+  console.log(newContentDiv);
 };
 
 export default switchPageContent;
