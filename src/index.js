@@ -16,15 +16,15 @@ const homePageBtn = document.querySelector("#home");
 
 // Home page - EventListener
 homePageBtn.addEventListener("click", () => {
-  switchPageContent(loadHomePage);
+  loadHomePage();
 });
 
 // Menu Page - EventListener
 menuPageBtn.addEventListener("click", () => {
-  switchPageContent(loadMenuPage);
+  loadMenuPage();
 });
 
 // Contact page - EventListener
 contactPageBtn.addEventListener("click", () => {
-  switchPageContent(loadContactPage);
+  loadContactPage();
 });

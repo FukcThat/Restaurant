@@ -16,10 +16,10 @@ import RosemaryCitrusImg from "./assets/RosemaryCitrus.png";
 import SignatureMocktailImg from "./assets/SignatureMocktail.png";
 
 // Load Menu Page
-const loadMenuPage = (container) => {
+const loadMenuPage = () => {
   // Get content div
   const contentDiv = document.querySelector(".content");
-  //   contentDiv.innerHTML = "";
+  contentDiv.innerHTML = "";
 
   // Menu Page - Div
   const menuPageDiv = document.createElement("div");
@@ -33,10 +33,12 @@ const loadMenuPage = (container) => {
   // Make Menu Category div's to append menu item's to
   const createMenuCategoryDivs = (menuCategoryTitle) => {
     const menuCategoryDiv = document.createElement("div");
+    menuCategoryDiv.classList.add("menu-category--div");
     menuCategoryDiv.setAttribute("data-category", menuCategoryTitle);
     menuPageDiv.appendChild(menuCategoryDiv);
 
     const menuCategoryTitleElement = document.createElement("h3");
+    menuCategoryTitleElement.classList.add("menu-category--title");
     menuCategoryTitleElement.textContent = menuCategoryTitle;
     menuCategoryDiv.appendChild(menuCategoryTitleElement);
   };
@@ -65,6 +67,7 @@ const loadMenuPage = (container) => {
 
     // Menu Item Div
     const menuItemDiv = document.createElement("div");
+    menuItemDiv.classList.add("menu-item--div");
     menuItemCategoryDiv.appendChild(menuItemDiv);
 
     // - Menu Item Name
@@ -82,7 +85,7 @@ const loadMenuPage = (container) => {
     menuItemPriceElement.textContent = menuItemPrice;
     menuItemDiv.appendChild(menuItemPriceElement);
 
-    // - Image (?)
+    // - Image
     const menuItemImageElement = document.createElement("img");
     menuItemImageElement.src = menuItemImage;
     menuItemImageElement.classList.add("menu-item--image");
@@ -94,7 +97,7 @@ const loadMenuPage = (container) => {
   // -- APPETIZERS --
   // Bread Board
   createMenuItem(
-    "'Willow Bread Board'",
+    "Willow Bread Board",
     "House-made sourdough, focaccia, and flatbread served with garlic confit, vegan herbed butter, and olive tapenade.",
     "8.00 Ɇ",
     BreadBoardImg,

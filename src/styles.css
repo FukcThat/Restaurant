@@ -8,28 +8,17 @@ nav {
     padding-inline: 3rem;
     display: flex;
     gap: 10rem;
+} 
+
+h2 {
+    font-family: "Parisienne", cursive;
+    color: wheat;
+    font-size: 6rem;
 }
 
-.content {
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .new-content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    opacity: 0;
-    transition: opacity 0.5s ease, transform 0.5s ease;
-    transform: translateX(100%);
-  }
-  
-  .new-content.visible {
-    opacity: 1;
-    transform: translateX(0);
-  }
-  
+h3 {
+    font-size: 2rem;
+}
 
 .nav-btn {
     cursor: pointer;
@@ -47,12 +36,6 @@ nav {
     column-gap: 5rem;
 }
 
-.restaurant-name {
-    font-family: "Parisienne", cursive;
-    color: wheat;
-    font-size: 6rem;
-}
-
 .logo-img {
     margin-top: 5rem;
     height: 32rem;
@@ -65,7 +48,31 @@ nav {
     font-size: 1.75rem;
 }
 
+.menu-category--div {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
+
+.menu-category--title {
+    grid-column: 1 / -1;
+}
+
+.menu-item--div {
+    height: 30rem;
+    width: 20rem;
+    background-color: rgb(93, 81, 81);
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
 .menu-item--image {
     height: 20rem;
     width: 20rem;
+    border-radius: 1rem;
 }
